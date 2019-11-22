@@ -1,0 +1,33 @@
+{
+    "presets": [["@babel/preset-env", {
+      "targets": {
+        "browsers": "> 0.25%, not dead"
+      }
+    }], "@babel/preset-react"],
+    "plugins": [
+        ["import", {
+            "libraryName": "antd",
+            "style": true
+        }],
+        "@babel/plugin-transform-runtime",
+        [
+          "babel-plugin-root-import",
+          {
+            "paths": [{
+              "rootPathPrefix": "~",
+              "rootPathSuffix": "src/components"
+            }, {
+              "rootPathPrefix": "#",
+              "rootPathSuffix": "src/containers"
+            }, {
+              "rootPathPrefix": "@",
+              "rootPathSuffix": "src"
+            }, {
+              "rootPathPrefix": "$",
+              "rootPathSuffix": "."
+            }]
+          }
+        ]
+    ]
+  }
+  

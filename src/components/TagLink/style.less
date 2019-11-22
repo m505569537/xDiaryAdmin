@@ -1,0 +1,43 @@
+.taglink {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 2px 2px #ebebeb;
+    padding: 15px;
+    border-radius: 6px;
+    transition: all .3s;
+    &:hover {
+        box-shadow: 0 0 5px 5px #e0e0e0;
+    }
+    .tag {
+        position: absolute;
+        left: 35px;
+        top: -35px;
+        height: 70px;
+        width: 70px;
+        z-index: 2;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 70px;
+        i {
+            font-size: 35px;
+        }
+    }
+    p {
+        font-size: 22px;
+        text-align: right;
+        margin: 0;
+       &:first-of-type {
+           font-size: 16px;
+           color: #a5a5a5;
+       }
+    }
+    hr {
+        border: 1px solid #e0e0e0;
+    }
+    span {
+        font-size: 14px;
+        display: block;
+        height: 18px;
+    }
+}
