@@ -13,7 +13,7 @@
     "babel-plugin-root-import": "^6.4.1",
     "customize-cra": "^0.7.0",
     "js-cookie": "^2.2.1",
-    "koa": "^2.8.1",
+    "koa": "^3.0.1",
     "koa-bodyparser": "^4.2.1",
     "koa-cors": "^0.0.16",
     "koa-multer": "^1.0.2",
